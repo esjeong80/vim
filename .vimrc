@@ -7,17 +7,17 @@ set all&                            " 설정된 모든 옵션을 기본값으로
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configure for Vundle
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set nocompatible												" be iMproved, required
-filetype off														" required
-set rtp+=~/.vim/bundle/Vundle.vim				" set the runtime path to include Vundle and initialize
+set nocompatible                    " be iMproved, required
+filetype off                        " required
+set rtp+=~/.vim/bundle/Vundle.vim   " set the runtime path to include Vundle and initialize
 
-call vundle#begin()                     " Keep Plugin commands between vundle#begin/end.
+call vundle#begin()                 " Keep Plugin commands between vundle#begin/end.
 Plugin 'gmarik/Vundle.vim'
-Plugin 'neocomplcache'									" 자동완성 기능
-Plugin 'L9'											  			" plugin from http://vim-scripts.org/vim/scripts.html
+Plugin 'neocomplcache'              " 자동완성 기능
+Plugin 'L9'                         " plugin from http://vim-scripts.org/vim/scripts.html
 call vundle#end()
 
-filetype plugin indent on								" required
+filetype plugin indent on           " required
 
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
